@@ -84,8 +84,9 @@ body {
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
+    /* padding-top: 120px;
+    padding-bottom: 120px; */
 }
 
 h1,
@@ -330,11 +331,9 @@ img {
 /* --------------footer------------ */
 .footer {
     background-color: var(--main-title-color);
+    padding: 100px 0;
 }
 
-.footer-container {
-    padding: 100px 15px;
-}
 
 .footer-logo {
     font-family: 'Raleway', sans-serif;
