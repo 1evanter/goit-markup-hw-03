@@ -216,7 +216,7 @@ img {
 
 
 .hero-title {
-    width: 530px;
+    max-width: 530px;
     margin: 0 auto 48px;
 
     font-weight: 700;
@@ -402,4 +402,9 @@ img {
 
 .portfolio-img-subtitle {
     margin-bottom: 8px;
+    color: var(--main-title-color);
+}
+
+.portfolio-descr {
+    color: var(--text-color);
 }
