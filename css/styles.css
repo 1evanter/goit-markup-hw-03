@@ -175,9 +175,10 @@ img {
 
 }
 
-.address-mail {
+.address-item:not(:last-child) {
     margin-right: 40px;
 }
+
 
 .address-mail,
 .address-tel {
