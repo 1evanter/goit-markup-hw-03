@@ -83,6 +83,11 @@ body {
     margin: 0 auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 h1,
 h2,
 h3,
@@ -203,16 +208,14 @@ img {
 
 .hero {
     background-color: var(--main-title-color);
-}
-
-.hero-container {
     padding-top: 188px;
     padding-bottom: 188px;
-
-
 }
 
+
 .hero-title {
+    width: 530px;
+    margin: 0 auto 48px;
 
     font-weight: 700;
     font-size: 56px;
@@ -220,9 +223,8 @@ img {
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white-color);
-    margin-bottom: 48px;
-}
 
+}
 
 
 .hero-btn {
@@ -246,12 +248,11 @@ img {
 
 .features-list {
     display: flex;
-    padding: 120px 0;
     gap: 24px;
 }
 
 .features-item {
-    /* background-color: green; */
+    width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -261,6 +262,10 @@ img {
 
 /* -------------functions----------- */
 
+.functions {
+    padding-top: 0;
+}
+
 .functions-title {
     margin-bottom: 72px;
 }
@@ -269,7 +274,7 @@ img {
     display: flex;
 
     flex-wrap: wrap;
-    padding-bottom: 120px;
+
     gap: 24px;
 
 }
@@ -288,10 +293,6 @@ img {
     background-color: var(--background-color);
 }
 
-.team-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
 
 .team-title {
     margin-bottom: 72px;
@@ -316,6 +317,8 @@ img {
 .team-names {
     background-color: var(--white-color);
     padding: 32px 16px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-descr {
@@ -358,9 +361,8 @@ img {
 
 /* ----------------portfolio--------------- */
 
-.portfolio-container {
+.portfolio {
     padding-top: 96px;
-    padding-bottom: 120px;
 }
 
 .portfolio-btn-list {
@@ -395,6 +397,7 @@ img {
     padding-bottom: 32px;
     padding-left: 16px;
     border: 1px solid var(--second-background-color);
+    border-top: 1px solid transparent;
 }
 
 .portfolio-img-subtitle {
